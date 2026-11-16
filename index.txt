@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John’s New Lawn Installations | Fresh Lawn Supply & Installation Cape Town</title>
+  <meta name="description" content="John’s New Lawn Installations supplies fresh, farm-sourced Cynodon, Kikuyu, Buffalo, and LM Berea lawn with professional installation across Cape Town, Western Cape." />
+  
+  <!-- Google Fonts: Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Manrope', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          colors: {
+            forest: '#17231D',
+            lawn: '#4C9228',
+            lightgrey: '#F3F5F1',
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-[#FFFFFF] text-[#17231D] font-sans antialiased selection:bg-[#4C9228] selection:text-white overflow-x-hidden">
+
+  <!-- =====================================================================
+       1. STICKY PURE WHITE HEADER
+       Left: Menu button | Center: Business Logo | Right: WhatsApp Shortcut
+  ===================================================================== -->
+  <header class="sticky top-0 z-40 w-full bg-[#FFFFFF] border-b border-[#17231D]/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 grid grid-cols-3 items-center">
+      <!-- Left: Menu Button -->
+      <div class="flex items-center justify-start">
+        <button
+          type="button"
+          id="open-menu-btn"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          class="inline-flex items-center gap-2.5 px-3 py-2.5 -ml-3 rounded-lg text-[#17231D] hover:bg-[#F3F5F1] transition-colors focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <span class="text-sm font-semibold tracking-wide hidden sm:inline">Menu</span>
+        </button>
+      </div>
+
+      <!-- Center: Business Logo -->
+      <div class="flex items-center justify-center">
+        <a
+          href="#home"
+          data-nav-link
+          aria-label="John’s New Lawn Installations Home"
+          class="inline-flex items-center justify-center select-none focus:outline-none focus:ring-2 focus:ring-[#4C9228] rounded-lg"
+        >
+          <img
+            src="https://i.imgur.com/tHXVgr6.jpeg"
+            alt="John’s New Lawn Installations Logo"
+            class="h-14 sm:h-16 w-auto object-contain block"
+          />
+        </a>
+      </div>
+
+      <!-- Right: WhatsApp Shortcut -->
+      <div class="flex items-center justify-end">
+        <a
+          href="https://wa.me/27679179900?text=Hello%20John%E2%80%99s%20New%20Lawn%20Installations%2C%20I%20would%20like%20to%20enquire%20about%20new%20lawn%20supply%20and%20installation."
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Chat with us on WhatsApp"
+          class="inline-flex items-center gap-2 bg-[#4C9228] hover:bg-[#3e7a1f] text-white text-sm font-semibold px-3.5 sm:px-4 py-2.5 rounded-lg transition-colors shadow-sm"
+        >
+          <svg class="w-4 h-4 sm:w-5 sm:h-5 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.477 1.332 4.992L2 22l5.188-1.359a9.923 9.923 0 004.843 1.258h.004c5.515 0 9.969-4.453 9.969-9.969 0-2.664-1.037-5.168-2.922-7.053A9.903 9.903 0 0012.031 2zm5.822 14.262c-.246.693-1.432 1.326-1.992 1.41-.512.076-1.158.109-1.871-.117-.434-.137-.99-.322-1.701-.629-2.992-1.291-4.945-4.303-5.094-4.502-.148-.199-1.217-1.619-1.217-3.088 0-1.469.77-2.191 1.043-2.49.273-.299.596-.373.795-.373.199 0 .398.002.572.01.184.008.43-.07.672.512.248.598.844 2.066.918 2.215.074.149.123.323.025.522-.099.199-.149.323-.298.497-.149.174-.313.389-.447.522-.149.149-.304.311-.131.609.174.299.772 1.273 1.658 2.063 1.139 1.016 2.099 1.331 2.398 1.48.298.149.472.124.646-.075.174-.199.745-.869.944-1.168.199-.299.398-.249.671-.149.273.1 1.739.82 2.037.969.298.149.497.224.571.348.075.125.075.721-.171 1.414z" />
+          </svg>
+          <span class="hidden md:inline">WhatsApp Us</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       SLIDE-OUT NAVIGATION PANEL
+  ===================================================================== -->
+  <div id="nav-drawer" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true" aria-label="Site Navigation">
+    <!-- Backdrop -->
+    <div id="nav-backdrop" class="fixed inset-0 bg-[#17231D]/60 backdrop-blur-xs transition-opacity"></div>
+
+    <!-- Drawer Panel -->
+    <div class="relative w-full max-w-xs sm:max-w-sm bg-[#FFFFFF] h-full shadow-2xl flex flex-col justify-between z-10 overflow-y-auto">
+      <div>
+        <!-- Drawer Header -->
+        <div class="h-24 px-6 flex items-center justify-between border-b border-[#17231D]/10">
+          <div class="inline-flex items-center justify-center select-none">
+            <img
+              src="https://i.imgur.com/tHXVgr6.jpeg"
+              alt="John’s New Lawn Installations Logo"
+              class="h-14 sm:h-16 w-auto object-contain block"
+            />
+          </div>
+          <button
+            type="button"
+            id="close-menu-btn"
+            aria-label="Close navigation menu"
+            class="p-2 -mr-2 rounded-lg text-[#17231D] hover:bg-[#F3F5F1] transition-colors"
+          >
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="px-4 py-6 space-y-1">
+          <a href="#home" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>Home</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a href="#about" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>About Us</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a href="#our-grass" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>Our Grass</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a href="#installation" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>Lawn Installation</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a href="#why-choose-us" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>Why Choose Us</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a href="#gallery" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>Gallery</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a href="#faq" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>FAQ</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+          <a href="#contact" data-nav-link class="flex items-center justify-between px-4 py-3.5 rounded-lg text-base font-semibold text-[#17231D] hover:bg-[#F3F5F1] hover:text-[#4C9228] transition-colors">
+            <span>Contact</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Drawer Footer Contact Block -->
+      <div class="p-6 bg-[#F3F5F1] border-t border-[#17231D]/10 space-y-4">
+        <div class="text-xs font-semibold uppercase tracking-wider text-[#17231D]/60">
+          Direct Enquiries
+        </div>
+        <div class="space-y-2 text-sm text-[#17231D]">
+          <p class="font-semibold">067 917 9900</p>
+          <p class="text-[#17231D]/80 break-all">matayajohn63@gmail.com</p>
+          <p class="text-[#17231D]/70">Cape Town, Western Cape</p>
+        </div>
+        <a
+          href="https://wa.me/27679179900?text=Hello%20John%E2%80%99s%20New%20Lawn%20Installations%2C%20I%20would%20like%20to%20enquire%20about%20new%20lawn%20supply%20and%20installation."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full inline-flex items-center justify-center gap-2 bg-[#4C9228] hover:bg-[#3e7a1f] text-white font-semibold text-sm py-3 px-4 rounded-lg transition-colors"
+        >
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.477 1.332 4.992L2 22l5.188-1.359a9.923 9.923 0 004.843 1.258h.004c5.515 0 9.969-4.453 9.969-9.969 0-2.664-1.037-5.168-2.922-7.053A9.903 9.903 0 0012.031 2zm5.822 14.262c-.246.693-1.432 1.326-1.992 1.41-.512.076-1.158.109-1.871-.117-.434-.137-.99-.322-1.701-.629-2.992-1.291-4.945-4.303-5.094-4.502-.148-.199-1.217-1.619-1.217-3.088 0-1.469.77-2.191 1.043-2.49.273-.299.596-.373.795-.373.199 0 .398.002.572.01.184.008.43-.07.672.512.248.598.844 2.066.918 2.215.074.149.123.323.025.522-.099.199-.149.323-.298.497-.149.174-.313.389-.447.522-.149.149-.304.311-.131.609.174.299.772 1.273 1.658 2.063 1.139 1.016 2.099 1.331 2.398 1.48.298.149.472.124.646-.075.174-.199.745-.869.944-1.168.199-.299.398-.249.671-.149.273.1 1.739.82 2.037.969.298.149.497.224.571.348.075.125.075.721-.171 1.414z" />
+          </svg>
+          <span>WhatsApp Enquiry</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- =====================================================================
+         2. HERO SECTION
+    ===================================================================== -->
+    <section id="home" class="relative bg-[#17231D] text-white">
+      <div class="relative min-h-[540px] sm:min-h-[600px] lg:min-h-[660px] flex items-center">
+        <img
+          src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1920&q=85"
+          alt="Freshly installed lush green lawn in Cape Town"
+          class="absolute inset-0 w-full h-full object-cover object-center"
+        />
+        <div class="absolute inset-0 bg-[#17231D]/65"></div>
+
+        <!-- Content Container -->
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 w-full">
+          <div class="max-w-2xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-white/10 backdrop-blur-xs border border-white/15 text-xs sm:text-sm font-semibold tracking-wide uppercase text-white mb-6">
+              <span class="w-2 h-2 rounded-full bg-[#4C9228]"></span>
+              <span>Cape Town, Western Cape</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.12] text-white">
+              Transform Your Outdoor Space With Fresh, Premium Lawn
+            </h1>
+
+            <p class="mt-5 text-base sm:text-lg text-white/90 leading-relaxed max-w-xl font-normal">
+              Farm-fresh grass supply and professional lawn installation across Cape Town.
+              We supply and lay Cynodon, Kikuyu, Buffalo, and LM Berea tailored to your garden’s conditions.
+            </p>
+
+            <div class="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5">
+              <a
+                href="https://wa.me/27679179900?text=Hello%20John%E2%80%99s%20New%20Lawn%20Installations%2C%20I%20would%20like%20to%20enquire%20about%20new%20lawn%20supply%20and%20installation."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center gap-2.5 bg-[#4C9228] hover:bg-[#3e7a1f] text-white font-semibold text-base px-6 py-4 rounded-lg transition-colors shadow-sm"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.477 1.332 4.992L2 22l5.188-1.359a9.923 9.923 0 004.843 1.258h.004c5.515 0 9.969-4.453 9.969-9.969 0-2.664-1.037-5.168-2.922-7.053A9.903 9.903 0 0012.031 2zm5.822 14.262c-.246.693-1.432 1.326-1.992 1.41-.512.076-1.158.109-1.871-.117-.434-.137-.99-.322-1.701-.629-2.992-1.291-4.945-4.303-5.094-4.502-.148-.199-1.217-1.619-1.217-3.088 0-1.469.77-2.191 1.043-2.49.273-.299.596-.373.795-.373.199 0 .398.002.572.01.184.008.43-.07.672.512.248.598.844 2.066.918 2.215.074.149.123.323.025.522-.099.199-.149.323-.298.497-.149.174-.313.389-.447.522-.149.149-.304.311-.131.609.174.299.772 1.273 1.658 2.063 1.139 1.016 2.099 1.331 2.398 1.48.298.149.472.124.646-.075.174-.199.745-.869.944-1.168.199-.299.398-.249.671-.149.273.1 1.739.82 2.037.969.298.149.497.224.571.348.075.125.075.721-.171 1.414z" />
+                </svg>
+                <span>WhatsApp Enquiry</span>
+              </a>
+
+              <a
+                href="#our-grass"
+                data-nav-link
+                class="inline-flex items-center justify-center gap-2 bg-white hover:bg-[#F3F5F1] text-[#17231D] font-semibold text-base px-6 py-4 rounded-lg transition-colors"
+              >
+                <span>View Our Grass</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         3. ABOUT US SECTION
+    ===================================================================== -->
+    <section id="about" class="py-16 sm:py-24 bg-[#FFFFFF]">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-5">
+          <p class="text-xs font-bold uppercase tracking-widest text-[#4C9228]">
+            About Us
+          </p>
+          <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#17231D] leading-tight">
+            Dedicated Lawn Supply & Installation in Cape Town
+          </h2>
+          <p class="text-base text-[#17231D]/80 leading-relaxed">
+            John’s New Lawn Installations provides homeowners and properties across Cape Town, Western Cape with fresh, farm-sourced turf and dependable installation services.
+          </p>
+          <p class="text-base text-[#17231D]/80 leading-relaxed">
+            Whether you are establishing a brand-new garden, replacing worn grass, or selecting a turf variety suited for sun, shade, pets, or low-maintenance living, we deliver healthy lawn and neat workmanship from start to finish.
+          </p>
+          <div class="pt-2">
+            <a
+              href="https://wa.me/27679179900?text=Hello%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20lawn%20supply%20and%20installation%20services."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-sm font-bold text-[#17231D] hover:text-[#4C9228] transition-colors border-b-2 border-[#4C9228] pb-1"
+            >
+              <span>Speak to Us on WhatsApp</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         4. OUR GRASS SECTION (4 Service Cards)
+    ===================================================================== -->
+    <section id="our-grass" class="py-16 sm:py-24 bg-[#F3F5F1]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="max-w-2xl mb-12 sm:mb-14">
+          <p class="text-xs font-bold uppercase tracking-widest text-[#4C9228]">
+            Our Grass Varieties
+          </p>
+          <h2 class="mt-2 text-2xl sm:text-4xl font-extrabold tracking-tight text-[#17231D]">
+            Quality Turf Supplied Fresh From Farms
+          </h2>
+          <p class="mt-3 text-base text-[#17231D]/75 leading-relaxed">
+            Select from four proven lawn varieties to suit your outdoor space, sunlight exposure, and maintenance preferences.
+          </p>
+        </div>
+
+        <!-- 4 Grass Cards Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-7">
+          <!-- Card 1: Cynodon -->
+          <article class="bg-[#FFFFFF] rounded-xl overflow-hidden border border-[#17231D]/10 flex flex-col justify-between transition-shadow hover:shadow-md">
+            <div>
+              <div class="aspect-[16/10] w-full bg-[#17231D]/5 overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=800&q=80"
+                  alt="Cynodon lawn grass"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-extrabold text-[#17231D]">Cynodon</h3>
+                <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-[#4C9228]">
+                  Sports Fields & Evergreen Appearance
+                </p>
+                <p class="mt-3 text-sm text-[#17231D]/80 leading-relaxed">
+                  A fine-textured, durable turf grass suitable for sports fields and active outdoor areas, offering a neat evergreen appearance.
+                </p>
+                <ul class="mt-4 pt-4 border-t border-[#17231D]/10 space-y-2">
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Suitable for sports fields</span>
+                  </li>
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Evergreen appearance</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="px-6 pb-6">
+              <a
+                href="https://wa.me/27679179900?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Cynodon%20lawn."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-[#F3F5F1] hover:bg-[#17231D] text-[#17231D] hover:text-white text-sm font-semibold transition-colors"
+              >
+                <span>Enquire About Cynodon</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Kikuyu -->
+          <article class="bg-[#FFFFFF] rounded-xl overflow-hidden border border-[#17231D]/10 flex flex-col justify-between transition-shadow hover:shadow-md">
+            <div>
+              <div class="aspect-[16/10] w-full bg-[#17231D]/5 overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
+                  alt="Kikuyu lawn grass"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-extrabold text-[#17231D]">Kikuyu</h3>
+                <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-[#4C9228]">
+                  Sunny Gardens & Pet Friendly
+                </p>
+                <p class="mt-3 text-sm text-[#17231D]/80 leading-relaxed">
+                  A vigorous, lush green lawn variety ideal for sunny gardens, built to handle active family life and pets with ease.
+                </p>
+                <ul class="mt-4 pt-4 border-t border-[#17231D]/10 space-y-2">
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Ideal for sunny gardens</span>
+                  </li>
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Pet friendly</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="px-6 pb-6">
+              <a
+                href="https://wa.me/27679179900?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Kikuyu%20lawn."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-[#F3F5F1] hover:bg-[#17231D] text-[#17231D] hover:text-white text-sm font-semibold transition-colors"
+              >
+                <span>Enquire About Kikuyu</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: Buffalo -->
+          <article class="bg-[#FFFFFF] rounded-xl overflow-hidden border border-[#17231D]/10 flex flex-col justify-between transition-shadow hover:shadow-md">
+            <div>
+              <div class="aspect-[16/10] w-full bg-[#17231D]/5 overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1584479898061-15742e14f50d?auto=format&fit=crop&w=800&q=80"
+                  alt="Buffalo lawn grass"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-extrabold text-[#17231D]">Buffalo</h3>
+                <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-[#4C9228]">
+                  Shaded Areas & Drought Resistant
+                </p>
+                <p class="mt-3 text-sm text-[#17231D]/80 leading-relaxed">
+                  A broad-leafed, resilient grass variety well suited for shaded areas while offering reliable drought resistance.
+                </p>
+                <ul class="mt-4 pt-4 border-t border-[#17231D]/10 space-y-2">
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Suitable for shaded areas</span>
+                  </li>
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Drought resistant</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="px-6 pb-6">
+              <a
+                href="https://wa.me/27679179900?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Buffalo%20lawn."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-[#F3F5F1] hover:bg-[#17231D] text-[#17231D] hover:text-white text-sm font-semibold transition-colors"
+              >
+                <span>Enquire About Buffalo</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4: LM Berea -->
+          <article class="bg-[#FFFFFF] rounded-xl overflow-hidden border border-[#17231D]/10 flex flex-col justify-between transition-shadow hover:shadow-md">
+            <div>
+              <div class="aspect-[16/10] w-full bg-[#17231D]/5 overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80"
+                  alt="LM Berea lawn grass"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-extrabold text-[#17231D]">LM Berea</h3>
+                <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-[#4C9228]">
+                  Soft Grass & Low Maintenance
+                </p>
+                <p class="mt-3 text-sm text-[#17231D]/80 leading-relaxed">
+                  A lush, soft grass variety prized for its comfortable underfoot feel and low maintenance requirements.
+                </p>
+                <ul class="mt-4 pt-4 border-t border-[#17231D]/10 space-y-2">
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Soft grass</span>
+                  </li>
+                  <li class="flex items-center gap-2 text-xs font-semibold text-[#17231D]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#4C9228] shrink-0"></span>
+                    <span>Low maintenance</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="px-6 pb-6">
+              <a
+                href="https://wa.me/27679179900?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20LM%20Berea%20lawn."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-[#F3F5F1] hover:bg-[#17231D] text-[#17231D] hover:text-white text-sm font-semibold transition-colors"
+              >
+                <span>Enquire About LM Berea</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         5. LAWN INSTALLATION SERVICE SECTION
+    ===================================================================== -->
+    <section id="installation" class="py-16 sm:py-24 bg-[#FFFFFF]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-[#17231D] text-white rounded-2xl overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12">
+            <!-- Text Content -->
+            <div class="lg:col-span-7 p-8 sm:p-12 lg:p-14 flex flex-col justify-center">
+              <p class="text-xs font-bold uppercase tracking-widest text-[#78BE52]">
+                Professional Service
+              </p>
+              <h2 class="mt-2 text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
+                Complete Lawn Installation From Start to Finish
+              </h2>
+              <p class="mt-4 text-base text-white/85 leading-relaxed">
+                A healthy, long-lasting lawn starts with proper installation. We handle the supply and laying of fresh farm turf with attention to clean edges, even coverage, and neat finishing so your outdoor space looks established from day one.
+              </p>
+
+              <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-white/90">
+                <div class="flex items-center gap-2.5">
+                  <span class="w-2 h-2 rounded-full bg-[#4C9228]"></span>
+                  <span>Direct farm-to-garden lawn supply</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="w-2 h-2 rounded-full bg-[#4C9228]"></span>
+                  <span>Neat, level turf laying</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="w-2 h-2 rounded-full bg-[#4C9228]"></span>
+                  <span>Residential gardens & outdoor spaces</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="w-2 h-2 rounded-full bg-[#4C9228]"></span>
+                  <span>Cape Town & surrounding areas</span>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <a
+                  href="https://wa.me/27679179900?text=Hello%20John%E2%80%99s%20New%20Lawn%20Installations%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20lawn%20installation."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center gap-2.5 bg-[#4C9228] hover:bg-[#3e7a1f] text-white font-semibold text-base px-6 py-3.5 rounded-lg transition-colors"
+                >
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.477 1.332 4.992L2 22l5.188-1.359a9.923 9.923 0 004.843 1.258h.004c5.515 0 9.969-4.453 9.969-9.969 0-2.664-1.037-5.168-2.922-7.053A9.903 9.903 0 0012.031 2zm5.822 14.262c-.246.693-1.432 1.326-1.992 1.41-.512.076-1.158.109-1.871-.117-.434-.137-.99-.322-1.701-.629-2.992-1.291-4.945-4.303-5.094-4.502-.148-.199-1.217-1.619-1.217-3.088 0-1.469.77-2.191 1.043-2.49.273-.299.596-.373.795-.373.199 0 .398.002.572.01.184.008.43-.07.672.512.248.598.844 2.066.918 2.215.074.149.123.323.025.522-.099.199-.149.323-.298.497-.149.174-.313.389-.447.522-.149.149-.304.311-.131.609.174.299.772 1.273 1.658 2.063 1.139 1.016 2.099 1.331 2.398 1.48.298.149.472.124.646-.075.174-.199.745-.869.944-1.168.199-.299.398-.249.671-.149.273.1 1.739.82 2.037.969.298.149.497.224.571.348.075.125.075.721-.171 1.414z" />
+                  </svg>
+                  <span>Enquire About Installation</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Image Side -->
+            <div class="lg:col-span-5 min-h-[280px] sm:min-h-[360px] relative">
+              <img
+                src="https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?auto=format&fit=crop&w=1200&q=80"
+                alt="Professional lawn installation service"
+                loading="lazy"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         6. WHY CHOOSE US SECTION (4 Benefits)
+    ===================================================================== -->
+    <section id="why-choose-us" class="py-16 sm:py-24 bg-[#F3F5F1]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mb-12">
+          <p class="text-xs font-bold uppercase tracking-widest text-[#4C9228]">
+            Why Choose Us
+          </p>
+          <h2 class="mt-2 text-2xl sm:text-4xl font-extrabold tracking-tight text-[#17231D]">
+            Reliable Quality & Straightforward Service
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Benefit 1 -->
+          <div class="bg-[#FFFFFF] p-6 sm:p-7 rounded-xl border border-[#17231D]/10 flex flex-col justify-between">
+            <div>
+              <div class="w-11 h-11 rounded-lg bg-[#F3F5F1] flex items-center justify-center mb-5">
+                <svg class="w-6 h-6 text-[#4C9228]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <span class="text-xs font-bold text-[#17231D]/40">01</span>
+              <h3 class="mt-1 text-lg font-extrabold text-[#17231D] leading-snug">
+                Quality Lawn Supplied Directly From Farms
+              </h3>
+              <p class="mt-2.5 text-sm text-[#17231D]/75 leading-relaxed">
+                Freshly harvested turf sourced directly from established grass farms for healthy root establishment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit 2 -->
+          <div class="bg-[#FFFFFF] p-6 sm:p-7 rounded-xl border border-[#17231D]/10 flex flex-col justify-between">
+            <div>
+              <div class="w-11 h-11 rounded-lg bg-[#F3F5F1] flex items-center justify-center mb-5">
+                <svg class="w-6 h-6 text-[#4C9228]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <span class="text-xs font-bold text-[#17231D]/40">02</span>
+              <h3 class="mt-1 text-lg font-extrabold text-[#17231D] leading-snug">
+                Professional Installation
+              </h3>
+              <p class="mt-2.5 text-sm text-[#17231D]/75 leading-relaxed">
+                Careful preparation and neat, level laying performed by our dedicated lawn installation team.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit 3 -->
+          <div class="bg-[#FFFFFF] p-6 sm:p-7 rounded-xl border border-[#17231D]/10 flex flex-col justify-between">
+            <div>
+              <div class="w-11 h-11 rounded-lg bg-[#F3F5F1] flex items-center justify-center mb-5">
+                <svg class="w-6 h-6 text-[#4C9228]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <span class="text-xs font-bold text-[#17231D]/40">03</span>
+              <h3 class="mt-1 text-lg font-extrabold text-[#17231D] leading-snug">
+                Multiple Grass Varieties
+              </h3>
+              <p class="mt-2.5 text-sm text-[#17231D]/75 leading-relaxed">
+                Choose from Cynodon, Kikuyu, Buffalo, and LM Berea to match the look and feel you want for your property.
+              </p>
+            </div>
+          </div>
+
+          <!-- Benefit 4 -->
+          <div class="bg-[#FFFFFF] p-6 sm:p-7 rounded-xl border border-[#17231D]/10 flex flex-col justify-between">
+            <div>
+              <div class="w-11 h-11 rounded-lg bg-[#F3F5F1] flex items-center justify-center mb-5">
+                <svg class="w-6 h-6 text-[#4C9228]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <span class="text-xs font-bold text-[#17231D]/40">04</span>
+              <h3 class="mt-1 text-lg font-extrabold text-[#17231D] leading-snug">
+                Suitable Grass Options for Different Garden Conditions
+              </h3>
+              <p class="mt-2.5 text-sm text-[#17231D]/75 leading-relaxed">
+                Whether your outdoor area receives full sun, partial shade, or regular foot traffic, we supply a matching grass option.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         7. GALLERY SECTION
+         - Exactly 7 individually replaceable image slots
+         - Arranged vertically, one below another
+         - Moderate image size, max desktop width ~750px
+         - Consistent 1:1 square aspect ratio with no text captions
+         - Rounded corners & Click-to-enlarge lightbox
+    ===================================================================== -->
+    <section id="gallery" class="py-16 sm:py-24 bg-[#FFFFFF]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[750px] mx-auto">
+          <!-- Section Heading -->
+          <div class="mb-10 sm:mb-12">
+            <p class="text-xs font-bold uppercase tracking-widest text-[#4C9228]">
+              Our Work
+            </p>
+            <h2 class="mt-2 text-2xl sm:text-4xl font-extrabold tracking-tight text-[#17231D]">
+              Recent Lawn Installations
+            </h2>
+            <p class="mt-2.5 text-sm sm:text-base text-[#17231D]/75">
+              Click any image below to view it in full size.
+            </p>
+          </div>
+
+          <!-- Vertical Stack of 7 Gallery Images (Max Width 750px, 1:1 Square Aspect Ratio) -->
+          <div class="flex flex-col space-y-6 sm:space-y-8">
+            <!-- Gallery Slot 1 -->
+            <figure class="w-full">
+              <button
+                type="button"
+                data-gallery-index="0"
+                aria-label="Enlarge gallery image 1"
+                class="group relative block w-full aspect-square rounded-xl overflow-hidden bg-[#F3F5F1] border border-[#17231D]/10 focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+              >
+                <img
+                  src="https://i.imgur.com/R7ayvEx.jpeg"
+                  alt="Gallery image 1"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+                <div class="absolute inset-0 bg-[#17231D]/0 group-hover:bg-[#17231D]/20 transition-colors"></div>
+                <span class="absolute bottom-3 right-3 inline-flex items-center justify-center bg-[#FFFFFF]/95 text-[#17231D] p-2 rounded-lg shadow-xs opacity-90 group-hover:opacity-100 transition-opacity">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </span>
+              </button>
+            </figure>
+
+            <!-- Gallery Slot 2 -->
+            <figure class="w-full">
+              <button
+                type="button"
+                data-gallery-index="1"
+                aria-label="Enlarge gallery image 2"
+                class="group relative block w-full aspect-square rounded-xl overflow-hidden bg-[#F3F5F1] border border-[#17231D]/10 focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+              >
+                <img
+                  src="https://i.imgur.com/YRcVtge.jpeg"
+                  alt="Gallery image 2"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+                <div class="absolute inset-0 bg-[#17231D]/0 group-hover:bg-[#17231D]/20 transition-colors"></div>
+                <span class="absolute bottom-3 right-3 inline-flex items-center justify-center bg-[#FFFFFF]/95 text-[#17231D] p-2 rounded-lg shadow-xs opacity-90 group-hover:opacity-100 transition-opacity">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </span>
+              </button>
+            </figure>
+
+            <!-- Gallery Slot 3 -->
+            <figure class="w-full">
+              <button
+                type="button"
+                data-gallery-index="2"
+                aria-label="Enlarge gallery image 3"
+                class="group relative block w-full aspect-square rounded-xl overflow-hidden bg-[#F3F5F1] border border-[#17231D]/10 focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+              >
+                <img
+                  src="https://i.imgur.com/IP9z9C4.jpeg"
+                  alt="Gallery image 3"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+                <div class="absolute inset-0 bg-[#17231D]/0 group-hover:bg-[#17231D]/20 transition-colors"></div>
+                <span class="absolute bottom-3 right-3 inline-flex items-center justify-center bg-[#FFFFFF]/95 text-[#17231D] p-2 rounded-lg shadow-xs opacity-90 group-hover:opacity-100 transition-opacity">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </span>
+              </button>
+            </figure>
+
+            <!-- Gallery Slot 4 -->
+            <figure class="w-full">
+              <button
+                type="button"
+                data-gallery-index="3"
+                aria-label="Enlarge gallery image 4"
+                class="group relative block w-full aspect-square rounded-xl overflow-hidden bg-[#F3F5F1] border border-[#17231D]/10 focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+              >
+                <img
+                  src="https://i.imgur.com/CGP1OQA.jpeg"
+                  alt="Gallery image 4"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+                <div class="absolute inset-0 bg-[#17231D]/0 group-hover:bg-[#17231D]/20 transition-colors"></div>
+                <span class="absolute bottom-3 right-3 inline-flex items-center justify-center bg-[#FFFFFF]/95 text-[#17231D] p-2 rounded-lg shadow-xs opacity-90 group-hover:opacity-100 transition-opacity">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </span>
+              </button>
+            </figure>
+
+            <!-- Gallery Slot 5 -->
+            <figure class="w-full">
+              <button
+                type="button"
+                data-gallery-index="4"
+                aria-label="Enlarge gallery image 5"
+                class="group relative block w-full aspect-square rounded-xl overflow-hidden bg-[#F3F5F1] border border-[#17231D]/10 focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+              >
+                <img
+                  src="https://i.imgur.com/MTMhw5G.jpeg"
+                  alt="Gallery image 5"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+                <div class="absolute inset-0 bg-[#17231D]/0 group-hover:bg-[#17231D]/20 transition-colors"></div>
+                <span class="absolute bottom-3 right-3 inline-flex items-center justify-center bg-[#FFFFFF]/95 text-[#17231D] p-2 rounded-lg shadow-xs opacity-90 group-hover:opacity-100 transition-opacity">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </span>
+              </button>
+            </figure>
+
+            <!-- Gallery Slot 6 -->
+            <figure class="w-full">
+              <button
+                type="button"
+                data-gallery-index="5"
+                aria-label="Enlarge gallery image 6"
+                class="group relative block w-full aspect-square rounded-xl overflow-hidden bg-[#F3F5F1] border border-[#17231D]/10 focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+              >
+                <img
+                  src="https://i.imgur.com/keQtfgh.jpeg"
+                  alt="Gallery image 6"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+                <div class="absolute inset-0 bg-[#17231D]/0 group-hover:bg-[#17231D]/20 transition-colors"></div>
+                <span class="absolute bottom-3 right-3 inline-flex items-center justify-center bg-[#FFFFFF]/95 text-[#17231D] p-2 rounded-lg shadow-xs opacity-90 group-hover:opacity-100 transition-opacity">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </span>
+              </button>
+            </figure>
+
+            <!-- Gallery Slot 7 -->
+            <figure class="w-full">
+              <button
+                type="button"
+                data-gallery-index="6"
+                aria-label="Enlarge gallery image 7"
+                class="group relative block w-full aspect-square rounded-xl overflow-hidden bg-[#F3F5F1] border border-[#17231D]/10 focus:outline-none focus:ring-2 focus:ring-[#4C9228]"
+              >
+                <img
+                  src="https://i.imgur.com/5Tt7GHt.jpeg"
+                  alt="Gallery image 7"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+                <div class="absolute inset-0 bg-[#17231D]/0 group-hover:bg-[#17231D]/20 transition-colors"></div>
+                <span class="absolute bottom-3 right-3 inline-flex items-center justify-center bg-[#FFFFFF]/95 text-[#17231D] p-2 rounded-lg shadow-xs opacity-90 group-hover:opacity-100 transition-opacity">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </span>
+              </button>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         8. FREQUENTLY ASKED QUESTIONS (Accordion)
+    ===================================================================== -->
+    <section id="faq" class="py-16 sm:py-24 bg-[#F3F5F1]">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-10 sm:mb-12">
+          <p class="text-xs font-bold uppercase tracking-widest text-[#4C9228]">
+            FAQ
+          </p>
+          <h2 class="mt-2 text-2xl sm:text-4xl font-extrabold tracking-tight text-[#17231D]">
+            Frequently Asked Questions
+          </h2>
+          <p class="mt-2.5 text-sm sm:text-base text-[#17231D]/75">
+            Answers to common questions about our grass types, supply, and lawn installation services.
+          </p>
+        </div>
+
+        <div class="space-y-3" id="faq-container">
+          <!-- FAQ 1 -->
+          <div class="bg-[#FFFFFF] rounded-xl border border-[#17231D]/10 overflow-hidden" data-faq-item>
+            <button
+              type="button"
+              data-faq-trigger
+              aria-expanded="true"
+              class="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-4 sm:py-5 text-left focus:outline-none focus:bg-[#F3F5F1]/40 transition-colors"
+            >
+              <span class="text-base sm:text-lg font-bold text-[#17231D]">
+                What types of grass do you offer?
+              </span>
+              <span data-faq-icon class="shrink-0 text-[#4C9228] transition-transform duration-200 rotate-180">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div data-faq-content class="px-5 sm:px-6 pb-5 pt-0 text-sm sm:text-base text-[#17231D]/80 leading-relaxed border-t border-[#17231D]/5">
+              <p class="pt-3.5">
+                We supply and install four primary lawn varieties: Cynodon, Kikuyu, Buffalo, and LM Berea.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-[#FFFFFF] rounded-xl border border-[#17231D]/10 overflow-hidden" data-faq-item>
+            <button
+              type="button"
+              data-faq-trigger
+              aria-expanded="false"
+              class="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-4 sm:py-5 text-left focus:outline-none focus:bg-[#F3F5F1]/40 transition-colors"
+            >
+              <span class="text-base sm:text-lg font-bold text-[#17231D]">
+                Which grass is best for shaded areas?
+              </span>
+              <span data-faq-icon class="shrink-0 text-[#4C9228] transition-transform duration-200">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div data-faq-content class="hidden px-5 sm:px-6 pb-5 pt-0 text-sm sm:text-base text-[#17231D]/80 leading-relaxed border-t border-[#17231D]/5">
+              <p class="pt-3.5">
+                Buffalo grass is well suited for shaded areas and also offers drought resistance. For advice tailored to your specific garden light levels, please contact us on WhatsApp at 067 917 9900.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-[#FFFFFF] rounded-xl border border-[#17231D]/10 overflow-hidden" data-faq-item>
+            <button
+              type="button"
+              data-faq-trigger
+              aria-expanded="false"
+              class="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-4 sm:py-5 text-left focus:outline-none focus:bg-[#F3F5F1]/40 transition-colors"
+            >
+              <span class="text-base sm:text-lg font-bold text-[#17231D]">
+                Which grass is suitable for sunny gardens?
+              </span>
+              <span data-faq-icon class="shrink-0 text-[#4C9228] transition-transform duration-200">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div data-faq-content class="hidden px-5 sm:px-6 pb-5 pt-0 text-sm sm:text-base text-[#17231D]/80 leading-relaxed border-t border-[#17231D]/5">
+              <p class="pt-3.5">
+                Kikuyu is ideal for sunny gardens and is pet friendly. Cynodon is also well suited for open, sunny areas and sports fields.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-[#FFFFFF] rounded-xl border border-[#17231D]/10 overflow-hidden" data-faq-item>
+            <button
+              type="button"
+              data-faq-trigger
+              aria-expanded="false"
+              class="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-4 sm:py-5 text-left focus:outline-none focus:bg-[#F3F5F1]/40 transition-colors"
+            >
+              <span class="text-base sm:text-lg font-bold text-[#17231D]">
+                Is your lawn supplied fresh?
+              </span>
+              <span data-faq-icon class="shrink-0 text-[#4C9228] transition-transform duration-200">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div data-faq-content class="hidden px-5 sm:px-6 pb-5 pt-0 text-sm sm:text-base text-[#17231D]/80 leading-relaxed border-t border-[#17231D]/5">
+              <p class="pt-3.5">
+                Yes. Our lawn is supplied fresh directly from farms to support healthy rooting and a vibrant finish once laid.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="bg-[#FFFFFF] rounded-xl border border-[#17231D]/10 overflow-hidden" data-faq-item>
+            <button
+              type="button"
+              data-faq-trigger
+              aria-expanded="false"
+              class="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-4 sm:py-5 text-left focus:outline-none focus:bg-[#F3F5F1]/40 transition-colors"
+            >
+              <span class="text-base sm:text-lg font-bold text-[#17231D]">
+                Do you provide lawn installation?
+              </span>
+              <span data-faq-icon class="shrink-0 text-[#4C9228] transition-transform duration-200">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div data-faq-content class="hidden px-5 sm:px-6 pb-5 pt-0 text-sm sm:text-base text-[#17231D]/80 leading-relaxed border-t border-[#17231D]/5">
+              <p class="pt-3.5">
+                Yes, we provide complete lawn installation services in addition to supplying fresh lawn. Contact us directly on WhatsApp or by email to discuss your project requirements.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="bg-[#FFFFFF] rounded-xl border border-[#17231D]/10 overflow-hidden" data-faq-item>
+            <button
+              type="button"
+              data-faq-trigger
+              aria-expanded="false"
+              class="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-4 sm:py-5 text-left focus:outline-none focus:bg-[#F3F5F1]/40 transition-colors"
+            >
+              <span class="text-base sm:text-lg font-bold text-[#17231D]">
+                How can I request a quotation?
+              </span>
+              <span data-faq-icon class="shrink-0 text-[#4C9228] transition-transform duration-200">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div data-faq-content class="hidden px-5 sm:px-6 pb-5 pt-0 text-sm sm:text-base text-[#17231D]/80 leading-relaxed border-t border-[#17231D]/5">
+              <p class="pt-3.5">
+                You can request a quotation directly by messaging or calling us on WhatsApp at 067 917 9900, or by emailing matayajohn63@gmail.com with your location and approximate lawn area.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="bg-[#FFFFFF] rounded-xl border border-[#17231D]/10 overflow-hidden" data-faq-item>
+            <button
+              type="button"
+              data-faq-trigger
+              aria-expanded="false"
+              class="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-4 sm:py-5 text-left focus:outline-none focus:bg-[#F3F5F1]/40 transition-colors"
+            >
+              <span class="text-base sm:text-lg font-bold text-[#17231D]">
+                Which areas do you service?
+              </span>
+              <span data-faq-icon class="shrink-0 text-[#4C9228] transition-transform duration-200">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div data-faq-content class="hidden px-5 sm:px-6 pb-5 pt-0 text-sm sm:text-base text-[#17231D]/80 leading-relaxed border-t border-[#17231D]/5">
+              <p class="pt-3.5">
+                We are based in Cape Town, Western Cape. Please contact us on WhatsApp at 067 917 9900 with your suburb or address to confirm service availability in your area.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         9. CONTACT SECTION
+    ===================================================================== -->
+    <section id="contact" class="py-16 sm:py-24 bg-[#FFFFFF]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-[#F3F5F1] rounded-2xl p-8 sm:p-12 lg:p-14 border border-[#17231D]/10">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            <!-- Left Column: Heading & Details -->
+            <div class="lg:col-span-7 space-y-6">
+              <div>
+                <p class="text-xs font-bold uppercase tracking-widest text-[#4C9228]">
+                  Get In Touch
+                </p>
+                <h2 class="mt-2 text-2xl sm:text-4xl font-extrabold tracking-tight text-[#17231D]">
+                  Request a Quotation or Enquire Today
+                </h2>
+                <p class="mt-3 text-base text-[#17231D]/75 max-w-xl leading-relaxed">
+                  Reach out directly via WhatsApp, phone, or email to discuss your grass variety options and lawn installation requirements in Cape Town.
+                </p>
+              </div>
+
+              <!-- Contact Details List -->
+              <div class="space-y-4 pt-2">
+                <div class="flex items-start gap-3.5">
+                  <div class="w-10 h-10 rounded-lg bg-[#FFFFFF] border border-[#17231D]/10 flex items-center justify-center text-[#4C9228] shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-xs font-bold uppercase tracking-wider text-[#17231D]/55">
+                      WhatsApp / Call
+                    </p>
+                    <a
+                      href="tel:+27679179900"
+                      class="text-base sm:text-lg font-bold text-[#17231D] hover:text-[#4C9228] transition-colors"
+                    >
+                      067 917 9900
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3.5">
+                  <div class="w-10 h-10 rounded-lg bg-[#FFFFFF] border border-[#17231D]/10 flex items-center justify-center text-[#4C9228] shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-xs font-bold uppercase tracking-wider text-[#17231D]/55">
+                      Email
+                    </p>
+                    <a
+                      href="mailto:matayajohn63@gmail.com"
+                      class="text-base sm:text-lg font-bold text-[#17231D] hover:text-[#4C9228] transition-colors break-all"
+                    >
+                      matayajohn63@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3.5">
+                  <div class="w-10 h-10 rounded-lg bg-[#FFFFFF] border border-[#17231D]/10 flex items-center justify-center text-[#4C9228] shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-xs font-bold uppercase tracking-wider text-[#17231D]/55">
+                      Location
+                    </p>
+                    <p class="text-base sm:text-lg font-bold text-[#17231D]">
+                      Cape Town, Western Cape
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Action Buttons -->
+            <div class="lg:col-span-5 bg-[#FFFFFF] p-6 sm:p-8 rounded-xl border border-[#17231D]/10 space-y-4">
+              <h3 class="text-lg font-extrabold text-[#17231D]">
+                Direct Channels
+              </h3>
+              <p class="text-sm text-[#17231D]/75 leading-relaxed">
+                Message us on WhatsApp for the fastest response, or follow our Facebook page to view updates.
+              </p>
+
+              <div class="pt-2 space-y-3">
+                <!-- WhatsApp CTA -->
+                <a
+                  href="https://wa.me/27679179900?text=Hello%20John%E2%80%99s%20New%20Lawn%20Installations%2C%20I%20would%20like%20to%20enquire%20about%20new%20lawn%20supply%20and%20installation."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="w-full inline-flex items-center justify-center gap-2.5 bg-[#4C9228] hover:bg-[#3e7a1f] text-white font-semibold text-base py-3.5 px-5 rounded-lg transition-colors"
+                >
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.477 1.332 4.992L2 22l5.188-1.359a9.923 9.923 0 004.843 1.258h.004c5.515 0 9.969-4.453 9.969-9.969 0-2.664-1.037-5.168-2.922-7.053A9.903 9.903 0 0012.031 2zm5.822 14.262c-.246.693-1.432 1.326-1.992 1.41-.512.076-1.158.109-1.871-.117-.434-.137-.99-.322-1.701-.629-2.992-1.291-4.945-4.303-5.094-4.502-.148-.199-1.217-1.619-1.217-3.088 0-1.469.77-2.191 1.043-2.49.273-.299.596-.373.795-.373.199 0 .398.002.572.01.184.008.43-.07.672.512.248.598.844 2.066.918 2.215.074.149.123.323.025.522-.099.199-.149.323-.298.497-.149.174-.313.389-.447.522-.149.149-.304.311-.131.609.174.299.772 1.273 1.658 2.063 1.139 1.016 2.099 1.331 2.398 1.48.298.149.472.124.646-.075.174-.199.745-.869.944-1.168.199-.299.398-.249.671-.149.273.1 1.739.82 2.037.969.298.149.497.224.571.348.075.125.075.721-.171 1.414z" />
+                  </svg>
+                  <span>Contact Us on WhatsApp</span>
+                </a>
+
+                <!-- Facebook Blue CTA -->
+                <a
+                  href="https://www.facebook.com/share/19muH4WNRg/?mibextid=wwXIfr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="w-full inline-flex items-center justify-center gap-2.5 bg-[#1877F2] hover:bg-[#166fe5] text-white font-semibold text-base py-3.5 px-5 rounded-lg transition-colors"
+                >
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+                  </svg>
+                  <span>Follow Our Facebook</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       10. DEEP FOREST GREEN FOOTER (#17231D)
+  ===================================================================== -->
+  <footer class="bg-[#17231D] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+        <!-- Column 1: Logo & Short Description -->
+        <div class="md:col-span-5 space-y-4">
+          <div class="inline-flex items-center justify-center select-none bg-white px-3.5 py-2 rounded-lg">
+            <img
+              src="https://i.imgur.com/tHXVgr6.jpeg"
+              alt="John’s New Lawn Installations Logo"
+              class="h-14 sm:h-16 w-auto object-contain block"
+            />
+          </div>
+          <p class="text-sm text-white/75 leading-relaxed max-w-sm">
+            Supplying fresh, farm-sourced lawn varieties and professional lawn installation services across Cape Town, Western Cape.
+          </p>
+        </div>
+
+        <!-- Column 2: Navigation Links -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-widest text-white/50">
+            Navigation
+          </h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#home" data-nav-link class="text-white/80 hover:text-white transition-colors">Home</a></li>
+            <li><a href="#about" data-nav-link class="text-white/80 hover:text-white transition-colors">About Us</a></li>
+            <li><a href="#our-grass" data-nav-link class="text-white/80 hover:text-white transition-colors">Our Grass</a></li>
+            <li><a href="#installation" data-nav-link class="text-white/80 hover:text-white transition-colors">Lawn Installation</a></li>
+            <li><a href="#why-choose-us" data-nav-link class="text-white/80 hover:text-white transition-colors">Why Choose Us</a></li>
+            <li><a href="#gallery" data-nav-link class="text-white/80 hover:text-white transition-colors">Gallery</a></li>
+            <li><a href="#faq" data-nav-link class="text-white/80 hover:text-white transition-colors">FAQ</a></li>
+            <li><a href="#contact" data-nav-link class="text-white/80 hover:text-white transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Contact Details & Facebook -->
+        <div class="md:col-span-4 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-widest text-white/50">
+            Contact Details
+          </h4>
+          <ul class="space-y-2.5 text-sm text-white/80">
+            <li>
+              <span class="text-white/50">WhatsApp / Call: </span>
+              <a
+                href="https://wa.me/27679179900?text=Hello%20John%E2%80%99s%20New%20Lawn%20Installations%2C%20I%20would%20like%20to%20enquire%20about%20new%20lawn%20supply%20and%20installation."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white font-semibold transition-colors"
+              >
+                067 917 9900
+              </a>
+            </li>
+            <li>
+              <span class="text-white/50">Email: </span>
+              <a
+                href="mailto:matayajohn63@gmail.com"
+                class="hover:text-white transition-colors break-all"
+              >
+                matayajohn63@gmail.com
+              </a>
+            </li>
+            <li>
+              <span class="text-white/50">Location: </span>
+              <span>Cape Town, Western Cape</span>
+            </li>
+          </ul>
+
+          <div class="pt-2">
+            <a
+              href="https://www.facebook.com/share/19muH4WNRg/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-sm font-semibold text-white hover:text-[#78BE52] transition-colors"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+              </svg>
+              <span>Follow us on Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Copyright Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60">
+        <p>&copy; <span id="current-year"></span> John’s New Lawn Installations. All rights reserved.</p>
+        <p>Cape Town, Western Cape</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       GALLERY LIGHTBOX MODAL
+  ===================================================================== -->
+  <div
+    id="lightbox-modal"
+    class="fixed inset-0 z-50 bg-[#17231D]/95 hidden items-center justify-center p-4 sm:p-8"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Gallery Lightbox"
+  >
+    <!-- Close Button -->
+    <button
+      type="button"
+      id="lightbox-close-btn"
+      aria-label="Close lightbox"
+      class="absolute top-4 right-4 sm:top-6 sm:right-6 p-2.5 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-colors z-10"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <!-- Previous Button -->
+    <button
+      type="button"
+      id="lightbox-prev-btn"
+      aria-label="Previous image"
+      class="absolute left-3 sm:left-6 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-colors z-10"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+    </button>
+
+    <!-- Image Container -->
+    <div id="lightbox-content" class="max-w-2xl w-full flex flex-col items-center">
+      <div class="w-full aspect-square rounded-xl overflow-hidden bg-black/40 shadow-2xl">
+        <img
+          id="lightbox-img"
+          src=""
+          alt="Enlarged gallery view"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="mt-4 flex items-center justify-end w-full text-sm text-white/85 px-1">
+        <span id="lightbox-counter" class="text-white/60 font-semibold">1 / 7</span>
+      </div>
+    </div>
+
+    <!-- Next Button -->
+    <button
+      type="button"
+      id="lightbox-next-btn"
+      aria-label="Next image"
+      class="absolute right-3 sm:right-6 p-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-colors z-10"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- =====================================================================
+       INTERACTIVE VANILLA JAVASCRIPT
+  ===================================================================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Set current copyright year
+      const yearEl = document.getElementById('current-year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      // ---------------------------------------------------------------------
+      // 1. Navigation Drawer & Smooth Scrolling
+      // ---------------------------------------------------------------------
+      const navDrawer = document.getElementById('nav-drawer');
+      const openMenuBtn = document.getElementById('open-menu-btn');
+      const closeMenuBtn = document.getElementById('close-menu-btn');
+      const navBackdrop = document.getElementById('nav-backdrop');
+      const navLinks = document.querySelectorAll('[data-nav-link]');
+
+      function openMenu() {
+        navDrawer.classList.remove('hidden');
+        openMenuBtn.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeMenu() {
+        navDrawer.classList.add('hidden');
+        openMenuBtn.setAttribute('aria-expanded', 'false');
+        if (lightboxIndex === null) {
+          document.body.style.overflow = '';
+        }
+      }
+
+      openMenuBtn.addEventListener('click', openMenu);
+      closeMenuBtn.addEventListener('click', closeMenu);
+      navBackdrop.addEventListener('click', closeMenu);
+
+      navLinks.forEach((link) => {
+        link.addEventListener('click', (e) => {
+          const href = link.getAttribute('href');
+          if (href && href.startsWith('#')) {
+            e.preventDefault();
+            closeMenu();
+            const target = document.querySelector(href);
+            if (target) {
+              const headerOffset = 96;
+              const elementPosition = target.getBoundingClientRect().top;
+              const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+              window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth',
+              });
+            }
+          }
+        });
+      });
+
+      // ---------------------------------------------------------------------
+      // 2. FAQ Accordion
+      // ---------------------------------------------------------------------
+      const faqItems = document.querySelectorAll('[data-faq-item]');
+
+      faqItems.forEach((item) => {
+        const trigger = item.querySelector('[data-faq-trigger]');
+        const content = item.querySelector('[data-faq-content]');
+        const icon = item.querySelector('[data-faq-icon]');
+
+        trigger.addEventListener('click', () => {
+          const isOpen = trigger.getAttribute('aria-expanded') === 'true';
+
+          // Close all other items
+          faqItems.forEach((otherItem) => {
+            const otherTrigger = otherItem.querySelector('[data-faq-trigger]');
+            const otherContent = otherItem.querySelector('[data-faq-content]');
+            const otherIcon = otherItem.querySelector('[data-faq-icon]');
+            otherTrigger.setAttribute('aria-expanded', 'false');
+            otherContent.classList.add('hidden');
+            otherIcon.classList.remove('rotate-180');
+          });
+
+          // Toggle current item
+          if (!isOpen) {
+            trigger.setAttribute('aria-expanded', 'true');
+            content.classList.remove('hidden');
+            icon.classList.add('rotate-180');
+          }
+        });
+      });
+
+      // ---------------------------------------------------------------------
+      // 3. Gallery Lightbox
+      // ---------------------------------------------------------------------
+      const galleryImages = [
+        { src: 'https://i.imgur.com/R7ayvEx.jpeg', alt: 'Gallery image 1' },
+        { src: 'https://i.imgur.com/YRcVtge.jpeg', alt: 'Gallery image 2' },
+        { src: 'https://i.imgur.com/IP9z9C4.jpeg', alt: 'Gallery image 3' },
+        { src: 'https://i.imgur.com/CGP1OQA.jpeg', alt: 'Gallery image 4' },
+        { src: 'https://i.imgur.com/MTMhw5G.jpeg', alt: 'Gallery image 5' },
+        { src: 'https://i.imgur.com/keQtfgh.jpeg', alt: 'Gallery image 6' },
+        { src: 'https://i.imgur.com/5Tt7GHt.jpeg', alt: 'Gallery image 7' },
+      ];
+
+      let lightboxIndex = null;
+      const lightboxModal = document.getElementById('lightbox-modal');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const lightboxCounter = document.getElementById('lightbox-counter');
+      const lightboxCloseBtn = document.getElementById('lightbox-close-btn');
+      const lightboxPrevBtn = document.getElementById('lightbox-prev-btn');
+      const lightboxNextBtn = document.getElementById('lightbox-next-btn');
+      const lightboxContent = document.getElementById('lightbox-content');
+      const galleryTriggers = document.querySelectorAll('[data-gallery-index]');
+
+      function updateLightbox() {
+        if (lightboxIndex === null) return;
+        const current = galleryImages[lightboxIndex];
+        lightboxImg.src = current.src;
+        lightboxImg.alt = current.alt;
+        lightboxCounter.textContent = `${lightboxIndex + 1} / ${galleryImages.length}`;
+      }
+
+      function openLightbox(index) {
+        lightboxIndex = index;
+        updateLightbox();
+        lightboxModal.classList.remove('hidden');
+        lightboxModal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeLightbox() {
+        lightboxIndex = null;
+        lightboxModal.classList.add('hidden');
+        lightboxModal.classList.remove('flex');
+        if (navDrawer.classList.contains('hidden')) {
+          document.body.style.overflow = '';
+        }
+      }
+
+      function showNextImage() {
+        if (lightboxIndex === null) return;
+        lightboxIndex = (lightboxIndex + 1) % galleryImages.length;
+        updateLightbox();
+      }
+
+      function showPrevImage() {
+        if (lightboxIndex === null) return;
+        lightboxIndex = (lightboxIndex - 1 + galleryImages.length) % galleryImages.length;
+        updateLightbox();
+      }
+
+      galleryTriggers.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const idx = parseInt(btn.getAttribute('data-gallery-index'), 10);
+          openLightbox(idx);
+        });
+      });
+
+      lightboxCloseBtn.addEventListener('click', closeLightbox);
+      lightboxModal.addEventListener('click', closeLightbox);
+      lightboxContent.addEventListener('click', (e) => e.stopPropagation());
+
+      lightboxPrevBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showPrevImage();
+      });
+
+      lightboxNextBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showNextImage();
+      });
+
+      // Keyboard navigation for Escape, Left, and Right arrows
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeMenu();
+          closeLightbox();
+        }
+        if (lightboxIndex !== null) {
+          if (e.key === 'ArrowRight') {
+            showNextImage();
+          } else if (e.key === 'ArrowLeft') {
+            showPrevImage();
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
